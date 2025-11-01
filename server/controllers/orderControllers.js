@@ -25,7 +25,7 @@ export const placeOrderCOD = async (req, res) => {
 
     // Create Order
     await Order.create({
-      userId,
+      userId, 
       items,
       amount,
       address,
