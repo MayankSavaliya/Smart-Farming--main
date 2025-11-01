@@ -1,4 +1,4 @@
-import Order from "../models/order.js";
+import Order from "../models/Order.js";
 import Product from "../models/product.js";
 import stripe from "stripe"
 
