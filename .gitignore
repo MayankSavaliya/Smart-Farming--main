@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+.env
+.git/
+.env.local
+.env.development
+.env.production
+.firebaserc
+.firebase/
+firebase.json
