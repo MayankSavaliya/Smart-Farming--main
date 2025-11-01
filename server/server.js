@@ -23,7 +23,7 @@ const startServer = async () => {
     await connectCloudniary();
 
     // Allow multiple origins
-    const allowedOrigins = ['http://localhost:5173'];
+    const allowedOrigins = ['http://localhost:5173','https://smart-farming-ease534.web.app/'];
 
     // Middleware
     app.use(express.json());
